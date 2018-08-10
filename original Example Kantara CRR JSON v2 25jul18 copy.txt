@@ -1,0 +1,72 @@
+"filetype":"digi.me Consent Receipt Record"
+"SourceSystem":"digi.me CARBON - Consent Access Receipt Billing Object Node - v1.0.0.a"
+
+"version":KI-CR-V1.1.0",
+"jurisdiction":"UK",
+"language":"English",
+
+"consentProfile":{
+   "consentTimestamp":1531735246,
+   "collectionMethod":"digi.me Consent Certificate",
+   "conceptreceiptID":7430298570298470598275098,
+   "publicKey":"df76876565dfe8765e65ee"
+},
+
+piiPrincipal":{ 
+   "piiPrincipalId":"digi.me partner ref XXXXXXXX",
+   "piiControllers":"digi.me partner Controllers X,Y,Z",
+   "piiController":"digi.me partner Controller Name J.Doe",
+   "contact":"J_Doe",
+   "address":{
+      "streetAddress": "21 42nd East St",
+      "city":"New York",
+      "state":"NY",
+      "zip":"10021"
+      },
+   "email":"J_Doe@digimepartner.com",
+   "phone":"+1 800 698 4637",
+
+   "piiControllerURL":"www.digimepartner.com/privacy",
+   "policyURL":"www.digimepartner.com/policy"
+},
+
+"serviceModel":{
+   "services":"transaction report",
+   "service":"digi.me Consent Access",
+   "purposes":"{purpose body text}",
+   "purpose":"As defined in purposes",
+   "purposeCategory":"Core Function",
+   "consentType":"Explicit",
+   "piiCategory":[
+        "social",
+        "finance",
+        "health"
+    ],
+   "termination":"Termination via digi.me user dashboard in digi.me app",
+   "thirdPartyDisclosure":"{string from consent access contract will data be shared field}",
+   "thirdPartyName":"none",
+   "sensitive":true,
+   "spiCat":[
+        "Health", 
+        "Finance"
+    ]
+},
+
+"extendedDataProfile":{
+   "extensionType":"digi.me Extended Data Profile - EDP",
+   "extensionTypeID":00001
+   "payloadHashSHA256": "485B57E21387497F9F611F6F42AA34AF61298E9214F4EDEBF5A003A4C28C2B97",
+   "totalObjects":6445,
+   "consentItemsIndexfileSHA256:"0874350872048570928437509823740598270",    {{links to User Library IndexFIle of all objects shared under CA Request }}
+   "timeWindowStartDate": 1500291806,
+   "timeWindowEndDate":1495021406,
+   "sharedObjects":[
+      "diagnosis",
+      "allergy",
+      "prescription"
+    ],
+    "objectFilters":{
+       "valid":true,
+       "signed":true
+   }  
+}
